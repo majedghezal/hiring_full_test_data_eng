@@ -3,8 +3,7 @@
 Ce projet a été réalisé dans le cadre d’un test technique pour un poste de Data Engineer chez FULL.
 
  # Contenu du projet :
-
-"fullETL.py" : Script pythoon principal qui implémente le pipeline Extract (du fichier csv) → Transform   → Load (dans la base de données retail.db).
+''fullETL.py'' : Script pythoon principal qui implémente le pipeline Extract (du fichier csv) → Transform   → Load (dans la base de données retail.db).
 
 test.py : Fichier de tests unitaires pour valider le bon fonctionnement du pipeline.
 
