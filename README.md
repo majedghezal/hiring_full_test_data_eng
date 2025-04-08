@@ -14,7 +14,7 @@ retail.db : Base de données SQLite contenant les transactions historiques.
 
 fullqueries.sql : Requêtes SQL répondant aux questions analytiques demandées.
 
-# deployment.pdf : Une proposition de l'architecture et son explication pour automatiser et déployer le pipeline en utilisant les différents services AWS et managés par Terraform.
+ deployment.pdf : Une proposition de l'architecture et son explication pour automatiser et déployer le pipeline en utilisant les différents services AWS et managés par Terraform.
 
 # Execution du projet : 
 
@@ -24,7 +24,7 @@ python fullETL.py (installer pandas (librairie externe)
 
 python -m unittest test.py
 
-# ==> Je n'ai pas ajouté de fichier Docker ou Makefile, car l'exécution du projet est simple et directe via python fullETL.py et python -m unittest test.py.
+==> Je n'ai pas ajouté de fichier Docker ou Makefile, car l'exécution du projet est simple et directe via python fullETL.py et python -m unittest test.py.
 
 # ETL Pipeline
 Extract : Lecture du fichier CSV contenant les transactions.
