@@ -13,7 +13,7 @@ Ce projet a été réalisé dans le cadre d’un test technique pour un poste de
 
 `fullqueries.sql` : Requêtes SQL répondant aux questions analytiques demandées.
 
- `deployment.pdf` : Une proposition de l'architecture et son explication pour automatiser et déployer le pipeline en utilisant les différents services AWS et managés par Terraform.
+ `deployment.pdf` : Une proposition de l'architecture et son explication pour automatiser et déployer le pipeline en utilisant les différents services AWS & managés par Terraform.
 
 # Execution du projet : 
 
