@@ -1,44 +1,41 @@
-📊 Hiring Full Test – Data Engineer
+# Hiring_full_test_data_eng 
+
 Ce projet a été réalisé dans le cadre d’un test technique pour un poste de Data Engineer chez FULL.
-Il consiste à implémenter un pipeline ETL pour charger des données de transactions dans une base SQLite, avec vérifications et corrections automatiques.
 
-🗂 Contenu du projet
-Fichier	Description
-fullETL.py	Script principal du pipeline ETL : Extract → Transform → Load
-test.py	Fichier de tests unitaires pour valider le fonctionnement du pipeline
-retail_15_01_2022.csv	Données de transactions à importer (input)
-retail.db	Base SQLite contenant les transactions
-fullqueries.sql	Requêtes SQL répondant aux questions analytiques demandées
-deployment.pdf	Proposition d’architecture pour le déploiement automatique sur AWS via Terraform
-🚀 Exécution du pipeline
-bash
-Copier
-Modifier
-python fullETL.py
-📌 Assurez-vous d'avoir pandas installé (pip install pandas)
+ # Contenu du projet :
 
-✅ Lancer les tests
-bash
-Copier
-Modifier
+'fullETL.py' : Script pythoon principal qui implémente le pipeline Extract (du fichier csv) → Transform   → Load (dans la base de données retail.db).
+
+test.py : Fichier de tests unitaires pour valider le bon fonctionnement du pipeline.
+
+retail_15_01_2022.csv : Le fichier de transactions à charger (input).
+
+retail.db : Base de données SQLite contenant les transactions historiques.
+
+fullqueries.sql : Requêtes SQL répondant aux questions analytiques demandées.
+
+ deployment.pdf : Une proposition de l'architecture et son explication pour automatiser et déployer le pipeline en utilisant les différents services AWS et managés par Terraform.
+
+# Execution du projet : 
+
+python fullETL.py (installer pandas (librairie externe)
+
+# Pour lancer les tests :
+
 python -m unittest test.py
-💡 À propos de Docker / Makefile
-Je n’ai pas ajouté de fichier Docker ou Makefile car l'exécution est simple et directe avec les commandes ci-dessus.
-Une solution complète de déploiement est proposée dans deployment.pdf.
 
-⚙️ Détails du pipeline ETL
-🔹 Extract
-Lecture du fichier CSV contenant les transactions
+==> Je n'ai pas ajouté de fichier Docker ou Makefile, car l'exécution du projet est simple et directe via python fullETL.py et python -m unittest test.py.
 
-🔹 Transform
-Vérification des colonnes et des valeurs obligatoires
+# ETL Pipeline
+Extract : Lecture du fichier CSV contenant les transactions.
 
-Nettoyage : suppression des doublons et gestion des quantités négatives
+Transform :
+Vérification des colonnes et des valeurs obligatoires.
 
-Correction automatique de la TVA à 20% si incorrecte
+Nettoyage : suppression des doublons, gestion des quantités négatives.
 
-Extraction de la date depuis le nom du fichier
+Correction automatique de la TVA si elle est erronée (TVA = 20%).
 
-🔹 Load
-Insertion dans la base SQLite tout en évitant les doublons
+Extraction de la date depuis le nom du fichier CSV.
 
+Load : Insertion dans la base SQLite tout en évitant les doublons.
