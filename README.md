@@ -37,4 +37,4 @@ Correction automatique de la TVA si elle est erronée (TVA = 20%).
 
 Extraction de la date depuis le nom du fichier CSV.
 
-Load : Insertion dans la base SQLite tout en évitant les doublons.
+`Load` : Insertion dans la base SQLite tout en évitant les doublons.
