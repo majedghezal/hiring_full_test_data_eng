@@ -9,7 +9,7 @@ Ce projet a été réalisé dans le cadre d’un test technique pour un poste de
 
 `retail_15_01_2022.csv` : Le fichier de transactions à charger (input).
 
-`retail.db` : Base de données SQLite contenant les transactions historiques.
+retail.db` : Base de données SQLite contenant les transactions historiques.
 
 `fullqueries.sql` : Requêtes SQL répondant aux questions analytiques demandées.
 
@@ -17,7 +17,7 @@ Ce projet a été réalisé dans le cadre d’un test technique pour un poste de
 
 # Execution du projet : 
 
-`python fullETL.py` (installer pandas puisque c'est une librairie externe)
+`python fullETL.py` (installer pandas puisque c'est une librairie externe : `pip install pandas`)
 
 # Pour lancer les tests :
 
