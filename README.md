@@ -23,7 +23,7 @@ retail.db` : Base de données SQLite contenant les transactions historiques.
 
 `python -m unittest test.py`
 
-`Je n'ai pas ajouté de fichier Docker ou Makefile, car l'exécution du projet est simple et directe via python fullETL.py et python -m unittest test.py.`
+`Je n'ai pas ajouté de fichier Docker ou Makefile, car l'exécution du projet est simple et directe via python fullETL.py et python -m unittest test.py`
 
 # ETL Pipeline :
 
